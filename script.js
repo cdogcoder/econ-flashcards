@@ -301,6 +301,8 @@ for (let i = 0; i < 100; i++) {
         question.style.cssText = "display: flex; flex-direction: column; gap: 12px; align-items: center;"
         const currContent = question.textContent;
         question.innerHTML = `<span>${currContent}</span> <img src="./images/9.png" style="display: block; height: 120px; width: 160px;">`;
+    } else if (i == 30) {
+        const currContent = question.textContent;
     } else if (i == 31) {
         question.style.cssText = "display: flex; flex-direction: column; gap: 12px;"
         const currContent = question.textContent;
